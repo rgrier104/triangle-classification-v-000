@@ -9,7 +9,7 @@ class Triangle
   def kind
     if @size1 == 0 or @side2 == 0 or @size3 == 0
         raise TriangleError
-    elseif
+    elsif
       @side1 == @side2 and @side3 == @side2
       type = :equilateral
     elsif ((@side1 == @side2 and @side1 != @side3) or
