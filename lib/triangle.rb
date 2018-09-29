@@ -16,6 +16,11 @@ class Triangle
     else
       type = :scalene
     end
+
+    class TriangleError < StandardError
+
+    end
+    
   end
 
 end
