@@ -9,8 +9,9 @@ class Triangle
   def kind
     if @side1 == @side2 and @side3 == @side2
       type = :equilateral
-    elsif ((@side1 == @side2 and @side1 != @side 3) or 
+    elsif ((@side1 == @side2 and @side1 != @side 3) or
       (@side1 == @side3 and @side1 != @side2) or
       (@side2 == @side3 and @side2 != @side1))
+      
 
 end
